@@ -680,3 +680,9 @@ footer {
     width: 70%;
   }
 }
+
+@media only screen and (max-width: 480px) {
+    nav{
+      width: 90%;
+    }
+  }
