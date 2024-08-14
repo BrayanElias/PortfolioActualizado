@@ -98,18 +98,12 @@ nav {
 }
 .nav-logo {
   position: relative;
-  display: flex;
-  align-items: center;
+  padding-top: 12px;
 }
-.nav-name {
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--text-color-third);
-}
-.nav-logo .icono-computer{
+.nav-logo .icono-computer {
   margin-left: 10px;
   width: 40px;
-} 
+}
 .nav-menu,
 .nav_menu_list {
   display: flex;
@@ -446,6 +440,15 @@ h3 {
   width: 50px;
   margin: 10px;
 }
+/* CERTIFICATE BOX */
+.top-header-certificates-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: var(--text-color-second);
+}
 /* ----- CONTACT BOX ----- */
 .contact-info {
   position: relative;
@@ -676,7 +679,7 @@ footer {
     display: flex;
     justify-content: center;
   }
-  .top-footer  img {
+  .top-footer img {
     width: 70%;
   }
 }
