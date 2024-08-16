@@ -683,11 +683,3 @@ footer {
     width: 70%;
   }
 }
-
-/* Estilos específicos para pantallas de 320px o menos */
-
-@media (max-width: 320px) {
-  nav{
-    width: 85%;
-  }
-}
